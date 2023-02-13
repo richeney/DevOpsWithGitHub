@@ -11,7 +11,7 @@
             "type": "string"
         },
         "appInsightsLocation": {
-            "defaultValue": "South Central US",
+            "defaultValue": "UK South",
             "type": "string"
         },
         "appInsightsName": {
@@ -23,7 +23,7 @@
             "type": "string"
         },
         "registryName": {
-            "defaultValue": "richeney-devopsreg",
+            "defaultValue": "richeneydevopsreg",
             "type": "string"
         },
         "imageName": {
@@ -31,7 +31,7 @@
             "type":"string"
         },
         "registryLocation": {
-            "defaultValue": "South Central US",
+            "defaultValue": "UK South",
             "type": "string"
         },
         "registrySku": {
