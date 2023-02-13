@@ -4,43 +4,43 @@
     "parameters": {
         "webAppName": {
             "defaultValue": "richeney-devops-dev",
-            "type": "String"
+            "type": "string"
         },
         "hostingPlanName": {
             "defaultValue": "richeney-devops-asp",
-            "type": "String"
+            "type": "string"
         },
         "appInsightsLocation": {
             "defaultValue": "South Central US",
-            "type": "String"
+            "type": "string"
         },
         "appInsightsName": {
             "defaultValue": "richeney-devops-ai",
-            "type": "String"
+            "type": "string"
         },
         "sku": {
             "defaultValue": "S1",
-            "type": "String"
+            "type": "string"
         },
         "registryName": {
             "defaultValue": "richeney-devopsreg",
-            "type": "String"
+            "type": "string"
         },
         "imageName": {
             "defaultValue": "richeney-devopsimage",
-            "type":"String"
+            "type":"string"
         },
         "registryLocation": {
             "defaultValue": "South Central US",
-            "type": "String"
+            "type": "string"
         },
         "registrySku": {
             "defaultValue": "Standard",
-            "type": "String"
+            "type": "string"
         },
         "startupCommand": {
             "defaultValue": "",
-            "type": "String"
+            "type": "string"
         }
     },
     "resources": [
@@ -97,7 +97,7 @@
             "apiVersion": "2017-10-01",
             "location": "[parameters('registryLocation')]",
             "properties": {
-                "adminUserEnabled": "true"
+                "adminUserEnabled": true
             }
         },
         {
