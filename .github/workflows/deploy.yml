@@ -22,6 +22,3 @@ on: [push]
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
           resourceGroupName: ${{ secrets.AZURE_RG }}
           template: ./azuredeploy.json
-  
-        # output containerName variable from template
-      # - run: echo ${{ steps.deploy.outputs.containerName }}
